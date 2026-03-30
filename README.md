@@ -1,3 +1,23 @@
 # Evil-Hangman-Project
-Hangman game that chooses a new word pool every time you guess to try and get the player to use up all of their guesses.
-To run this file, first import the files into a Linux shell. Then run the makefile by typing 'make'
+A twist on the classic Hangman game where the program doesn’t choose a fixed word. Instead, it changes the possible word list after each guess to make the game harder and use up your guesses.
+
+## How to Run
+
+1. Open a Linux terminal
+2. Navigate to the project folder
+3. Compile the program:
+
+   ```bash
+   make
+   ```
+4. Run it:
+
+   ```bash
+   ./string_driver
+   ```
+
+## Requirements
+
+* Linux
+* `make`
+* C compiler
